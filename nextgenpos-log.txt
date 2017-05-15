@@ -1,0 +1,9 @@
+May 15, 2017 5:05:30 PM - Error Has Occurred:
+Item with id 10 was not found in catalog. User must enter a VALID id OR item needs to be added to catalog.
+
+se.kth.ict.nextgenpos.model.ItemNotFoundInCatalogException: Item with id 10 was not found in catalog. User must enter a VALID id OR item needs to be added to catalog.
+	at se.kth.ict.nextgenpos.model.ProductCatalog.findSpecification(ProductCatalog.java:44)
+	at se.kth.ict.nextgenpos.controller.Controller.enterItem(Controller.java:51)
+	at se.kth.ict.nextgenpos.view.View.enterItem(View.java:52)
+	at se.kth.ict.nextgenpos.view.View.test(View.java:44)
+	at se.kth.ict.nextgenpos.startup.Main.main(Main.java:13)
