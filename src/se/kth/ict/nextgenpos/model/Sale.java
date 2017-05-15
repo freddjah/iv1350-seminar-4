@@ -29,7 +29,7 @@ public class Sale implements SaleComponent{
     public void addItem(ProductSpecification spec, int quantity) {
         SalesLineItem lineItem = new SalesLineItem(spec, quantity);
         lineItems.add(lineItem);
-        notifyObservers(spec);
+        notifyObservers(spec.toString());
     }
 
     /**
@@ -83,11 +83,11 @@ public class Sale implements SaleComponent{
 
     /**
      * Notifies the observers about the product that is currently being added to sale.
-     * @param spec The <code>ProductSpecification</code> of the product that is being added.
+     * @param product The <code>String</code> of the product that is being added.
      */
-    private void notifyObservers(ProductSpecification spec){
+    private void notifyObservers(String product){
         for (SaleObserver obs : this.saleObservers)
-            obs.addProduct(spec);
+            obs.addProduct(product);
     }
 
 

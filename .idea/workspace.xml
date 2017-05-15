@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef13eefa-aaca-4db2-a152-91b11a39a247" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sem4/se/kth/ict/nextgenpos/controller/Controller.class" afterPath="$PROJECT_DIR$/out/production/sem4/se/kth/ict/nextgenpos/controller/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sem4/se/kth/ict/nextgenpos/model/ItemNotFoundInCatalogException.class" afterPath="$PROJECT_DIR$/out/production/sem4/se/kth/ict/nextgenpos/model/ItemNotFoundInCatalogException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sem4/se/kth/ict/nextgenpos/model/Receipt.class" afterPath="$PROJECT_DIR$/out/production/sem4/se/kth/ict/nextgenpos/model/Receipt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sem4/se/kth/ict/nextgenpos/model/Sale.class" afterPath="$PROJECT_DIR$/out/production/sem4/se/kth/ict/nextgenpos/model/Sale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nextgenpos-log.txt" afterPath="$PROJECT_DIR$/nextgenpos-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/Receipt.java" afterPath="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/Receipt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/ItemNotFoundInCatalogException.java" afterPath="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/ItemNotFoundInCatalogException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/Sale.java" afterPath="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/Sale.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleObserver.java" afterPath="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleObserver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/SaleList.java" afterPath="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/SaleList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/View.java" afterPath="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/View.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,23 +53,33 @@
       <file leaf-file-name="Sale.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/Sale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="1203">
+              <caret line="85" column="46" lean-forward="true" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#520#521#0" expanded="true" />
                 <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#1768#1769#0" expanded="true" />
-                <element signature="e#1796#1797#0" expanded="true" />
-                <element signature="e#1832#1833#0" expanded="true" />
-                <element signature="e#1880#1881#0" expanded="true" />
-                <element signature="e#1914#1915#0" expanded="true" />
-                <element signature="e#1964#1965#0" expanded="true" />
-                <element signature="e#2212#2213#0" expanded="true" />
-                <element signature="e#2255#2256#0" expanded="true" />
-                <marker date="1494887200000" expanded="false" signature="1991:2002" ph=" { " />
-                <marker date="1494887200000" expanded="false" signature="2021:2027" ph=" }" />
+                <element signature="e#1779#1780#0" expanded="true" />
+                <element signature="e#1807#1808#0" expanded="true" />
+                <element signature="e#1843#1844#0" expanded="true" />
+                <element signature="e#1891#1892#0" expanded="true" />
+                <element signature="e#1925#1926#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
+                <element signature="e#2223#2224#0" expanded="true" />
+                <element signature="e#2266#2267#0" expanded="true" />
+                <marker date="1494890110000" expanded="false" signature="2002:2013" ph=" { " />
+                <marker date="1494890110000" expanded="false" signature="2032:2038" ph=" }" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaleList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/SaleList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,8 +87,8 @@
       <file leaf-file-name="SaleObserver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="150">
+              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -109,36 +117,42 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ProductSpecification.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/ProductSpecification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SaleComponent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="225">
               <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemNotFoundInCatalogException.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemNotFoundInCatalogException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/ItemNotFoundInCatalogException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductCatalog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/ProductCatalog.java">
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="e#348#379#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1182#1183#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-477">
+              <caret line="3" column="66" lean-forward="false" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -188,21 +202,21 @@
         <option value="$PROJECT_DIR$/sem4.iml" />
         <option value="$PROJECT_DIR$/tests/se/kth/ict/nextgenpos/model/ItemNotFoundInCatalogExceptionTest.java" />
         <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleList.java" />
-        <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleObserver.java" />
-        <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/SaleList.java" />
         <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/ProductCatalog.java" />
         <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/CostComponent.java" />
-        <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/View.java" />
         <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/ErrorMessageHandler.java" />
-        <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/ItemNotFoundInCatalogException.java" />
         <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SalesLineItem.java" />
         <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleComponent.java" />
         <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleComponentO.java" />
         <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleLeafO.java" />
         <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleCompositeO.java" />
-        <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/Sale.java" />
         <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/Receipt.java" />
+        <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/ItemNotFoundInCatalogException.java" />
+        <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleObserver.java" />
+        <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/Sale.java" />
+        <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/SaleList.java" />
+        <option value="$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/View.java" />
       </list>
     </option>
   </component>
@@ -215,7 +229,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="236" />
     <option name="y" value="92" />
-    <option name="width" value="1217" />
+    <option name="width" value="1028" />
     <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -901,7 +915,7 @@
       <updated>1494794989396</updated>
       <workItem from="1494794993862" duration="10515000" />
       <workItem from="1494805643210" duration="4675000" />
-      <workItem from="1494811337409" duration="22744000" />
+      <workItem from="1494811337409" duration="24625000" />
     </task>
     <servers />
   </component>
@@ -926,16 +940,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37934000" />
+    <option name="totallyTimeSpent" value="39815000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="92" width="1217" height="947" extended-state="0" />
+    <frame x="236" y="92" width="1028" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32720232" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32687926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -947,7 +961,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26622844" sideWeight="0.4893918" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3151751" sideWeight="0.4893918" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1105,9 +1119,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="50" column="72" lean-forward="false" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,16 +1131,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
-            <element signature="e#1796#1797#0" expanded="true" />
-            <element signature="e#1832#1833#0" expanded="true" />
-            <element signature="e#1880#1881#0" expanded="true" />
-            <element signature="e#1914#1915#0" expanded="true" />
-            <element signature="e#1964#1965#0" expanded="true" />
-            <element signature="e#2212#2213#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <marker date="1494887200000" expanded="false" signature="1991:2002" ph=" { " />
-            <marker date="1494887200000" expanded="false" signature="2021:2027" ph=" }" />
+            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
+            <element signature="e#1891#1892#0" expanded="true" />
+            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2223#2224#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+            <marker date="1494890110000" expanded="false" signature="2002:2013" ph=" { " />
+            <marker date="1494890110000" expanded="false" signature="2032:2038" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1206,9 +1218,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,34 +1329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/SaleList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/ProductSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/ProductCatalog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -1384,26 +1366,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleCompositeO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1435,6 +1401,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/ItemNotFoundInCatalogException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/Receipt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1443,32 +1417,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/ProductSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/SaleList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/SaleObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/Sale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="1203">
+          <caret line="85" column="46" lean-forward="true" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
-            <element signature="e#1796#1797#0" expanded="true" />
-            <element signature="e#1832#1833#0" expanded="true" />
-            <element signature="e#1880#1881#0" expanded="true" />
-            <element signature="e#1914#1915#0" expanded="true" />
-            <element signature="e#1964#1965#0" expanded="true" />
-            <element signature="e#2212#2213#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <marker date="1494887200000" expanded="false" signature="1991:2002" ph=" { " />
-            <marker date="1494887200000" expanded="false" signature="2021:2027" ph=" }" />
+            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
+            <element signature="e#1891#1892#0" expanded="true" />
+            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2223#2224#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+            <marker date="1494890110000" expanded="false" signature="2002:2013" ph=" { " />
+            <marker date="1494890110000" expanded="false" signature="2032:2038" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/model/ItemNotFoundInCatalogException.java">
+    <entry file="file://$PROJECT_DIR$/src/se/kth/ict/nextgenpos/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="-477">
+          <caret line="3" column="66" lean-forward="false" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
           <folding />
         </state>
       </provider>

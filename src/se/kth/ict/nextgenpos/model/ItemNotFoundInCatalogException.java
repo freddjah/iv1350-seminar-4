@@ -7,7 +7,7 @@ package se.kth.ict.nextgenpos.model;
 /**
  * Thrown when a specified item id was not found in the product catalog.
  */
-public class ItemNotFoundInCatalogException extends Exception{
+public class ItemNotFoundInCatalogException extends RuntimeException{
     private int itemId;
 
     /**

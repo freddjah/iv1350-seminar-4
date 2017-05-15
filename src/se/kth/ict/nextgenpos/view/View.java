@@ -2,8 +2,6 @@ package se.kth.ict.nextgenpos.view;
 
 import se.kth.ict.nextgenpos.controller.Controller;
 import se.kth.ict.nextgenpos.model.ItemNotFoundInCatalogException;
-import se.kth.ict.nextgenpos.model.ProductSpecification;
-import se.kth.ict.nextgenpos.model.SaleObserver;
 import se.kth.ict.nextgenpos.util.Time;
 
 import java.io.IOException;

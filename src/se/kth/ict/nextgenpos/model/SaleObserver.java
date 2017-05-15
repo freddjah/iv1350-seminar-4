@@ -8,5 +8,5 @@ package se.kth.ict.nextgenpos.model;
  * Simple observer interface.
  */
 public interface SaleObserver {
-    void addProduct(ProductSpecification product);
+    void addProduct(String product);
 }
