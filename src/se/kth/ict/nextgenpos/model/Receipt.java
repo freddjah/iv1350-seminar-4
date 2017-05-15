@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Receipt {
     private int payedAmount;
     private int totalCost;
-    private List<SalesLineItem> receiptLines = new ArrayList<SalesLineItem>();
+    private List<SaleComponent> receiptLines = new ArrayList<>();
 
     /**
      * Creates a new receipt and saves all information it needs.

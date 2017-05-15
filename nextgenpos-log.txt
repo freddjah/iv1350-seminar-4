@@ -1,4 +1,4 @@
-May 15, 2017 5:05:30 PM - Error Has Occurred:
+May 16, 2017 12:27:26 AM - Error Has Occurred:
 Item with id 10 was not found in catalog. User must enter a VALID id OR item needs to be added to catalog.
 
 se.kth.ict.nextgenpos.model.ItemNotFoundInCatalogException: Item with id 10 was not found in catalog. User must enter a VALID id OR item needs to be added to catalog.

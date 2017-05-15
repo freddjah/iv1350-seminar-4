@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * Represents a single sale to one customer. This is also the Composite in the SaleComponent -> Sale -> SalesLineItem tree structure.
  */
 public class Sale implements SaleComponent{
-    private List<SalesLineItem> lineItems;
+    private List<SaleComponent> lineItems;
     private int payedAmount;
     private int iterator;
     private List<SaleObserver> saleObservers = new ArrayList<>();
@@ -16,7 +16,7 @@ public class Sale implements SaleComponent{
      * Instantiates a new <code>Sale</code>.
      */
     public Sale() {
-        lineItems = new ArrayList<SalesLineItem>();
+        lineItems = new ArrayList<>();
     }
 
     /**
@@ -61,7 +61,7 @@ public class Sale implements SaleComponent{
         iterator = 0;
     }
 
-    SalesLineItem nextLineItem() {
+    SaleComponent nextLineItem() {
         return lineItems.get(iterator++);
     }
 
